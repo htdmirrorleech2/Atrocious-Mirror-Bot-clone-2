@@ -50,10 +50,10 @@ def start(update, context):
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-Hi, I'm Atrocious Mirror Bot, a multipurpose bot for [AL-NOMAN](t.me/smexynos7870)
+Hi, I'm HTD Mirror Bot, a multipurpose bot for [AL-NOMAN](t.me/howtodoyt)
 I can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
-For any question join [Atrocious Bot Support](t.me/Atrocious_Bot_Support)
+For Any Doubt [](t.me/howtodoyt)
 '''
     update.effective_message.reply_photo("https://telegra.ph/file/e183c440fa21cc3866d1f.png", start_string, parse_mode=ParseMode.MARKDOWN)
         
